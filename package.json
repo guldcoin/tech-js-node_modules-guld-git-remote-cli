@@ -21,7 +21,7 @@
   "license": "MIT",
   "dependencies": {
     "commander": "^2.16.0",
-    "guld-git-remote": "^1.0.4"
+    "guld-git-remote": "^1.0.5"
   },
   "devDependencies": {
     "eslint": "^5.1.0",
@@ -41,5 +41,8 @@
   "readme": "README.md",
   "engines": {
     "node": ">=7"
-  }
+  },
+  "homepage": "https://github.com/isysd/tech-js-node_modules-guld-git-remote-cli#readme",
+  "preferGlobal": true,
+  "repository": "git@github.com:isysd/tech-js-node_modules-guld-git-remote-cli.git"
 }
