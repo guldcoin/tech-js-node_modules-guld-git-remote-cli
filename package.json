@@ -21,7 +21,7 @@
   "license": "MIT",
   "dependencies": {
     "commander": "^2.16.0",
-    "guld-git-remote": "^1.0.5"
+    "guld-git-remote": "^1.0.6"
   },
   "devDependencies": {
     "eslint": "^5.1.0",
