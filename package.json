@@ -1,6 +1,6 @@
 {
   "name": "guld-git-remote-cli",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Manage git remotes the guld way.",
   "bin": {
     "guld-git-remote": "./cli.js"
@@ -21,7 +21,7 @@
   "license": "MIT",
   "dependencies": {
     "commander": "^2.16.0",
-    "guld-git-remote": "^1.0.8"
+    "guld-git-remote": "^1.0.9"
   },
   "devDependencies": {
     "eslint": "^5.1.0",
