@@ -1,6 +1,6 @@
 {
   "name": "guld-git-remote-cli",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Manage git remotes the guld way.",
   "bin": {
     "guld-git-remote": "./cli.js"
