@@ -1,14 +1,15 @@
 #!/usr/bin/env node
 // eslint-disable-file no-console
 const program = require('commander')
-const VERSION = require('./package.json').version
 const { deleteRemote, addRemote } = require('guld-git-remote')
+const runCLI = require('guld-cli-run')
+const thispkg = require(`${__dirname}/package.json`)
 
 /* eslint-disable no-console */
 program
-  .name('guld-git-remote')
-  .version(VERSION)
-  .description('Manage git remotes the guld way.')
+  .name(thispkg.name.replace('-cli', ''))
+  .version(thispkg.version)
+  .description(thispkg.description)
   // .option('-q, --quiet', '')
 program
   .command('remove [name]')
@@ -31,5 +32,6 @@ program
     console.log('ok')
   })
 
-program.parse(process.argv)
-if (program.rawArgs.length === 2) program.help()
+/* eslint-enable no-console */
+runCLI.bind(program)()
+module.exports = program
